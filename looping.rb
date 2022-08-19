@@ -32,11 +32,16 @@ def reverse_string(str)
   # your code here
   leng = str.length
   new_string = ""
-  #leng.times do |i|
-  i = 0 
-  while i < str.length
+  leng.times do |i|
     new_string = str[i] + new_string
-    i += 1
   end
   new_string
 end
+# new_string = ""
+#   i = 0 
+#   while i < str.length
+#     new_string = str[i] + new_string
+#     i += 1
+#   end
+#   new_string
+# end
